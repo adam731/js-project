@@ -1,13 +1,119 @@
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #9fafca;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.intro button {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background: #0e387a;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.intro h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e387a;
+  margin-bottom: 20px;
+}
+
+.question-section {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-text {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e387a;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+
+.answer-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer-section button {
+  width: 25%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background: #0e387a;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.question-count {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0e387a;
+  margin-bottom: 20px;
+}
+
+.score-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e387a;
+}
+
+
+.score-section button {
+  width: 10%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background: #0e387a;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
 }
