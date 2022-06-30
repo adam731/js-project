@@ -1,6 +1,7 @@
 ## How to use
 
 Simple trivia app using Open Trivia Database API and built using React, simply hit start and 10 random trivia questions are displayed for user out of 10
+https://adam731.github.io/js-project/
 
 # Getting Started with Create React App
 
